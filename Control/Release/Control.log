@@ -1,0 +1,77 @@
+﻿Build started 7/2/2011 4:14:26 AM.
+     1>Project "C:\Dez\Work\Gamemaking\Visual Studio Projects\Control\Control\Control.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\Control.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Canvas.cpp Main.cpp Tile.cpp
+         Canvas.cpp
+     1>Canvas.cpp(33): warning C4018: '<' : signed/unsigned mismatch
+     1>Canvas.cpp(35): warning C4018: '<' : signed/unsigned mismatch
+     1>Canvas.cpp(48): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Canvas.cpp(48): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Canvas.cpp(48): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Canvas.cpp(48): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Canvas.cpp(55): warning C4244: 'initializing' : conversion from 'double' to 'const int', possible loss of data
+     1>Canvas.cpp(61): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>Canvas.cpp(61): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>Canvas.cpp(61): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>Canvas.cpp(61): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>Canvas.cpp(67): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>Canvas.cpp(67): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>Canvas.cpp(67): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>Canvas.cpp(67): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>Canvas.cpp(73): warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+     1>Canvas.cpp(74): warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+     1>Canvas.cpp(82): warning C4018: '<' : signed/unsigned mismatch
+     1>Canvas.cpp(84): warning C4018: '<' : signed/unsigned mismatch
+     1>Canvas.cpp(90): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Canvas.cpp(91): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Canvas.cpp(80): warning C4101: 'xPos' : unreferenced local variable
+     1>Canvas.cpp(80): warning C4101: 'yPos' : unreferenced local variable
+     1>Canvas.cpp(118): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Canvas.cpp(119): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Canvas.cpp(129): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>Canvas.cpp(129): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Canvas.cpp(129): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>Canvas.cpp(129): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>Canvas.cpp(130): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Canvas.cpp(130): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>Canvas.cpp(130): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>Canvas.cpp(130): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>Canvas.cpp(131): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>Canvas.cpp(131): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>Canvas.cpp(131): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>Canvas.cpp(131): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Canvas.cpp(132): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>Canvas.cpp(132): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>Canvas.cpp(132): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Canvas.cpp(132): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+         Main.cpp
+     1>Main.cpp(36): warning C4018: '<' : signed/unsigned mismatch
+     1>Main.cpp(38): warning C4018: '<' : signed/unsigned mismatch
+     1>Main.cpp(73): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>Main.cpp(74): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>Main.cpp(118): warning C4018: '<' : signed/unsigned mismatch
+     1>Main.cpp(120): warning C4018: '<' : signed/unsigned mismatch
+     1>Main.cpp(117): warning C4101: 'growthRate' : unreferenced local variable
+     1>Main.cpp(315): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Main.cpp(315): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         Tile.cpp
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Dez\Work\Gamemaking\Visual Studio Projects\Control\Release\Control.exe" /INCREMENTAL:NO /NOLOGO "sfml-system-s.lib" "sfml-window-s.lib" "sfml-graphics-s.lib" opengl32.lib glu32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Control.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Dez\Work\Gamemaking\Visual Studio Projects\Control\Release\Control.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Dez\Work\Gamemaking\Visual Studio Projects\Control\Release\Control.lib" /MACHINE:X86 Release\Canvas.obj
+         Release\Main.obj
+         Release\Tile.obj
+     1>LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Generating code
+         Finished generating code
+         Control.vcxproj -> C:\Dez\Work\Gamemaking\Visual Studio Projects\Control\Release\Control.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Dez\Work\Gamemaking\Visual Studio Projects\Control\Release\Control.exe;#1" /manifest Release\Control.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\Control.unsuccessfulbuild".
+         Touching "Release\Control.lastbuildstate".
+     1>Done Building Project "C:\Dez\Work\Gamemaking\Visual Studio Projects\Control\Control\Control.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.08
